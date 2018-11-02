@@ -11,6 +11,8 @@ create table 회원(
     primary key (회원아이디),
     check (나이>0),
 	check (적립급>=0),
+    check (등급 in('sliver','gold','vip','vvip'))
+);
 
 create table 제조업체(
 	제조업체명 varchar(10) not null,
