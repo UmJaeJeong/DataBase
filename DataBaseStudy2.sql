@@ -242,7 +242,7 @@ create table	고객(
     from 고객 c	
     inner join     주문 o	
     on c.고객아이디 = o.주문고객	
-    where c.고객아이디 = 'banana';p
+    where c.고객아이디 = 'banana';
     
     
     
@@ -253,5 +253,3 @@ create table	고객(
   and o.주문제품 like '%4'
     
     
-    
-    String 
